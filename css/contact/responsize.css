@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1000px) {
+  .header {
+    height: 236px;
+  }
+  .container-slogan {
+    height: 183px;
+  }
+  .slogan-text {
+    position: relative;
+    top: 60px;
+    margin-left: 0;
+  }
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid {
+    grid-column: 1 / span 2;
+    margin: 0;
+  }
+  .main-heading {
+    padding: 37px 0px 19px;
+    border-bottom: 1px solid #cec5c0;
+  }
+  .main-heading h2 {
+    text-align: center;
+  }
+  .main-title {
+    text-align: center;
+  }
+  .main-details li {
+    position: relative;
+    left: 25%;
+  }
+  .main-details span {
+    position: relative;
+    left: 25%;
+  }
+  form {
+    margin: 0 auto;
+  }
+  /*Start-Footer-Contact*/
+  .container-footer {
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #291e18;
+  }
+  .footer-logo {
+    grid-column: 2 / span 2;
+  }
+  .footer-contact {
+    grid-column: 1 / span 3;
+    background-color: #3b2c25;
+  }
+  .footer-contact-name {
+    background-color: #3b2c25;
+  }
+  .footer-contact-copyright {
+    background-color: #3b2c25;
+  }
+  /*End-Footer-Contact*/
+}
+@media only screen and (max-width: 768px) {
+  .navbar-list {
+    justify-content: space-around;
+  }
+  .navbar-item:last-child {
+    padding-right: 0px;
+  }
+  .navbar-item {
+    padding-right: 0px;
+  }
+  .slogan-logo {
+    display: none;
+  }
+  .container-slogan {
+    display: flex;
+    justify-content: center;
+  }
+  .main-details li {
+    min-width: 50px;
+  }
+  .main-details li {
+    position: relative;
+    left: 15%;
+  }
+  .main-details span {
+    position: relative;
+    left: 15%;
+  }
+  .form {
+    margin-left: 10px;
+    width: 95%;
+  }
+  #margin {
+    padding-left: 30px;
+  }
+  /*Start-Footer-Contact*/
+  .footer {
+    background-color: #3b2c25;
+  }
+  .container-footer {
+    display: block;
+  }
+  .footer-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .footer-logo img:first-child {
+    padding-left: 0;
+  }
+  #light-footer {
+    padding-bottom: 0;
+    width: 68px;
+    height: 32px;
+    padding-top: 25px;
+  }
+  .footer-logo img:last-child {
+    width: 26px;
+    height: 12px;
+    padding-top: 32px;
+    padding-left: 5px;
+  }
+  .footer-contact {
+    display: flex;
+  }
+  .footer-contact-name {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  .footer-contact-copyright {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  /*End-Footer-Contact*/
+}
